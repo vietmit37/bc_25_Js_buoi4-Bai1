@@ -27,9 +27,10 @@ document.getElementById("kq1").onclick = function () {
   var a = document.getElementById("a").value * 1;
   var b = document.getElementById("b").value * 1;
   var c = document.getElementById("c").value * 1;
+  var d;
   var thongbao = document.getElementById("thongbao1");
   if (a > b) {
-    var d = a;
+    d = a;
     a = b;
     b = d;
   }
