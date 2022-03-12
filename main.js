@@ -35,12 +35,12 @@ document.getElementById("kq1").onclick = function () {
     b = d;
   }
   if (a > c) {
-    var d = a;
+    d = a;
     a = c;
     c = d;
   }
   if (b > c) {
-    var d = b;
+    d = b;
     b = c;
     c = d;
   }
